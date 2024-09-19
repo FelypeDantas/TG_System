@@ -1,0 +1,59 @@
+.titulo_login {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-weight: 500;
+}
+
+form {
+    text-align: center;
+    text-wrap: 2rem;
+}
+
+#usuario{
+    width: 60%;
+    padding: 10px 90px 10px 90px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+#usuario::placeholder{
+    text-align: justify;
+}
+
+#senha{
+    width: 60%;
+    padding: 10px 90px 10px 90px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+#usuario::placeholder{
+    text-align: justify;
+}
+
+.logar{
+    border-radius: 15px;
+    border: none;
+    background-color: green;
+    padding: 10px 30px 10px 30px;
+}
+
+.logar:hover{
+    background-color: aquamarine;
+    border: aqua;
+}
+
+.caminho_cadastro{
+    font-size: small;
+    color: gray;
+    text-decoration: none;
+    align-self: center;
+}
