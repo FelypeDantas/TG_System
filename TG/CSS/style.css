@@ -1,3 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+}
+
 .titulo_login {
     text-align: center;
     font-size: 60px;
@@ -11,39 +19,27 @@ form {
     text-wrap: 2rem;
 }
 
-#usuario{
+#usuario, #senha{
     width: 60%;
-    padding: 10px 90px 10px 90px;
+    padding: 10px 90px 10px 3px;
     border-radius: 10px;
     margin-bottom: 10px;
-    border-color: blue;
+    border-color:blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 300;
 }
 
 #usuario::placeholder{
-    text-align: justify;
-}
-
-#senha{
-    width: 60%;
-    padding: 10px 90px 10px 90px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    border-color: blue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
     font-weight: 300;
-}
-
-#usuario::placeholder{
-    text-align: justify;
 }
 
 .logar{
     border-radius: 15px;
     border: none;
-    background-color: green;
+    background-color: turquoise;
     padding: 10px 30px 10px 30px;
+    margin-bottom: 10px;
 }
 
 .logar:hover{
@@ -52,7 +48,7 @@ form {
 }
 
 .caminho_cadastro{
-    font-size: small;
+    font-size: medium;
     color: gray;
     text-decoration: none;
     align-self: center;
